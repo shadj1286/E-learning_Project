@@ -1,0 +1,126 @@
+body{
+    margin: 0px;
+    background-color: azure;
+    background: linear-gradient(to right,#9fe1b2 0%, #a6c0d7  100%);
+}
+hr{
+    border: 2px solid black;
+    color: black;
+}
+.logo{
+    /* border: 2px solid black; */
+    height: auto;
+    width: 100%;
+    background: linear-gradient(to right, #02021a 0%, #04390f 100%);
+}   
+.logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    display: flex;
+    margin:auto;
+    /* border: 2px solid red; */
+    z-index: 500;
+}
+.logotext{
+    /* border: 2px solid black; */
+    /* display: inline-flex; */
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+    color: rgb(9, 205, 139);
+}
+#ltid{
+    font-weight: bolder;
+    font-size: xx-large;
+    font-style: oblique;
+    font-family: cursive;
+
+}
+ /* .logo img{
+    height: 150px;
+    width: 100%; 
+    align: center;
+    margin: auto 0px;
+}  */
+.navbar{
+    display: flex;
+    /* border: 2px solid black;  */
+    margin: 0px 0px;
+    justify-content: space-between;
+
+}
+.header{
+    /* display: ; */
+    width: 50%;
+}
+.header ul{
+    display: flex;
+    font-weight: bolder;
+    font-size: x-large;
+    justify-content: space-around;
+    list-style: none;
+}
+.header ul li a{
+    flex-flow: none;
+    color: #04390f;
+    text-decoration: none;
+
+}
+.navbar ul li a:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 3px #04390f;
+    color: rgb(9, 205, 139);
+} 
+.searchbar{
+    display: inline-flex;
+    height: 40px;
+    margin: auto 0px;
+    margin-right: 25px;
+    /* padding: 5px;; */
+}
+.searchbar a{
+    color: #04390f;
+    text-decoration: none;  
+    margin: 5px;   
+    display: flex;
+    /* display: block; */
+    /* width: 50%;   */
+    font-weight: bolder;
+    font-size: x-large;
+    justify-content: space-around;
+    list-style: none;
+}
+.searchbar a:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 3px #04390f;
+    color: rgb(9, 205, 139);
+}
+/* #Search ,button{
+    border-radius: 8px;
+
+} */
+#div1{
+    background-color: black;
+    color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+}
+#divbackground{
+    background-image: url(3.png);
+    padding: 25px;
+    background-repeat: repeat-x;
+
+}
+#textbox{
+    width: auto;
+    height: 440px;
+    opacity: 0.7;
+    background-color: black;
+    padding: 10px;
+}
+.text{
+    color: white;
+    font-size: x-large;
+}
